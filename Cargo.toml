@@ -1,6 +1,6 @@
 [package]
-name = "github_fdw_quickstart" # The name of your wrapper. Must be Postgres compatible.
-version = "0.2.0" # The version number.
+name = "sheets_fdw" # The name of your wrapper. Must be Postgres compatible.
+version = "0.3.0" # The version number.
 edition = "2021"
 
 [lib]
@@ -15,7 +15,7 @@ wit-bindgen-rt = "0.26.0"
 serde_json = "1.0"
 
 [package.metadata.component]
-package = "my-company:github-fdw-quickstart" # A namespaced identifier
+package = "my-company:sheets-fdw" # A namespaced identifier
 
 [package.metadata.component.target]
 path = "wit"
